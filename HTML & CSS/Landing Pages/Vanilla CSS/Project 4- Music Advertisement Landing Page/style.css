@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Search */
+    background: #F9F5ED;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 400;
+}
+
+nav ul li img {
+    margin-top: 5px;
+    height: 25px;
+}
+
+
+/* CSS for HERO Section */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftmain {
+    width: 40%;
+}
+
+.leftmain h1 {
+    font-size: 45px;
+}
+
+.leftmain p {
+    font-size: 12px;
+    margin: 5% 0;
+}
+
+.leftmain button {
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain {
+    width: 60%;
+}
+
+.rightmain div:first-of-type > * , .rightmain div:last-of-type img  {
+    padding: 5px;
+}
+
+@media screen and (max-width:780px) {
+    main {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .rightmain div:last-of-type img{
+        height: 150px;
+    }
+}

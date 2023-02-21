@@ -1,0 +1,163 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+body {
+
+    margin: 50px;
+    font-family: 'Orbitron';
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    margin: 0px 100px;
+    width: 100vw;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list-item {
+    margin-right: 50px;
+    font-size: 24px;
+}
+
+.list-item:first-child {
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.button-group button {
+    border: 3px solid black;
+}
+
+.nav-button {
+    margin-left: 20px;
+    text-align: center;
+    width: 175px;
+    height: 45px;
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.hero-container-right {
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-container-right button {
+    margin-top: 100px;
+}
+
+.hero-heading {
+    font-size: 75px;
+}
+
+.hero-description {
+    text-align: center;
+    font-weight: 300;
+    width: 50%;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-email {
+    font-family: 'Orbitron';
+    text-align: center;
+    width: 250px;
+    height: 45px;
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.button-join {
+    margin-left: 10px;
+    font-family: 'Orbitron';
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    font-size: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.contact-heading {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.icons span {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.hero-container .square {
+    position: absolute;
+    top: 30rem;
+    left: 350px;
+    z-index: -1;
+}
+
+.hero-container div:nth-child(5) {
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+.hero-container .star:nth-child(2) {
+    position: absolute;
+    top: 200px;
+    left: 83%;
+}
+
+.globe {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+}
+
+.hero-container .star :nth-child(1) {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+@media screen and (max-width:1855px) {
+    .hero-container-right {
+        position: relative;
+        top: 200px;
+        left: 0px;
+    }
+
+    .globe {
+        display: none;
+    }
+
+    .star {
+        display: none;
+    }
+}
