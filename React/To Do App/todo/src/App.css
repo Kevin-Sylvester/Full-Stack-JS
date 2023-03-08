@@ -1,0 +1,62 @@
+.App {
+  background-color: #DF2E38;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.main-container {
+background-color: beige;
+border-radius: 5%;
+padding: 50px;
+}
+
+.line {
+  background-color: black;
+  height: 1px;
+  margin: 10px 0;
+}
+
+#textField {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 80%;
+  align-items: center;
+}
+
+#plusBtn {
+  align-items: center;
+  height: 20%;
+  width: 8%;
+  margin:0 10px ;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasksList{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid gray;
+  width: 75%;
+  padding-left: 5px;
+  margin: 0 5px 10px 0;
+}
+
+h1 {
+  width: 100%;
+}
+
+h1 i {
+  padding-left: 10px;
+ font-size: 20px;
+}
+.taskLists i {
+  padding-left: 5px;
+  height: 25%;
+  width: 8%;
+}
