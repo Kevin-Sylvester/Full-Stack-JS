@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e8a77c2.css",
+    "main.js": "/static/js/main.fdf5b5c0.js",
+    "static/media/mainImage.png": "/static/media/mainImage.fd34ce659563b54e40fb.png",
+    "static/media/Dre.png": "/static/media/Dre.38945577f9e86243116c.png",
+    "static/media/specsImage.png": "/static/media/specsImage.c3202752f26afe63f58b.png",
+    "static/media/blue.png": "/static/media/blue.b35b0e9a9adae8fc8941.png",
+    "static/media/twilightGray.png": "/static/media/twilightGray.f3fce410f3f73190740b.png",
+    "static/media/nightBlack.png": "/static/media/nightBlack.774b0d4029a3055a2e86.png",
+    "static/media/redBlack.png": "/static/media/redBlack.b56a3bb7b7ae5d3e69e1.png",
+    "static/media/buyNowSectionImage.png": "/static/media/buyNowSectionImage.4d2a0c9a1742a14a2f73.png",
+    "static/media/black.png": "/static/media/black.b8b514b011a2b92af038.png",
+    "static/media/caseImage.png": "/static/media/caseImage.4b20b908037ba737a9f0.png",
+    "static/media/productLogo.png": "/static/media/productLogo.3c0e67575379906bdae3.png",
+    "static/media/onEar.png": "/static/media/onEar.368a21d6a24843711474.png",
+    "index.html": "/index.html",
+    "main.3e8a77c2.css.map": "/static/css/main.3e8a77c2.css.map",
+    "main.fdf5b5c0.js.map": "/static/js/main.fdf5b5c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e8a77c2.css",
+    "static/js/main.fdf5b5c0.js"
+  ]
+}
